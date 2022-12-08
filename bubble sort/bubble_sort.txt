@@ -1,0 +1,14 @@
+Bubble Sort u Ordenamiento de Burbuja (Algoritmo más simple que existe). 
+Se le llama así por que va seleccionando los elementos adyacentes, cambia el número que está en la posición incorrecta a la posición correcta. 
+Es un algoritmo super lento y poco eficiente, primero por que necesitas dos bucles y segundo, por la cantidad de iteraciones del mismo.
+
+
+Este algoritmo obtiene su nombre de la forma con la que suben por la lista los elementos durante los intercambios, como si fueran pequeñas “burbujas”.
+Es el ordenamiento más simple, y funciona validando cada elemento de la lista que a ordenar con el siguiente, es decir, realiza el intercambio de posición en caso de que estén en orden erróneo. 
+El ordenamiento de burbuja (Bubble Sort) revisa varias veces el recorrido hasta que no se requieran más intercambios, es decir, ya está ordenado por completo. Aquí podemos ver el recorrido del ordenamiento Bubble Sort
+
+
+Este algoritmo es bastante lento y poco eficiente.
+Por qué? Pues porque tiene que hacer muchos recorridos, tiene muchas iteraciones y
+conforme los números que le vamos metiendo a nuestro algoritmo vayan aumentando el mismo simple y sencillamente va a aumentar en complejidad.
+
