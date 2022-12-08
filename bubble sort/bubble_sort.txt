@@ -47,3 +47,19 @@ Paso 7: se realiza otra comparación que es entre 4 y 5, 4 > 5? no, entonces no 
 Paso 8: se realiza otra comparación que es entre 5 y 7, 5 > 7? no, entonces no se cambian.
 
 [2| 2 | 4 | 5| 7]
+
+
+
+El tiempo de ejecución va a crecer de una forma exponencial, en este caso de una exponencial cuadrática
+o va a estar elevado al cuadrado. Que quiere decir esto muy simple Mientras más datos tengas que procesar
+Peor se vuelve este algoritmo y mucho más lento en su ejecución, como Tip siempre
+que tengas algún algoritmo que utiliza bucles que van a recorrer todo tu sed de datos.
+
+Eso siempre va a atender a tener una anotación exponencial que puede ser n al cuadrado (n^2) o en el cubo (n^3)
+más, según las cantidades de veces o iteraciones se debe ejecutar sobre el bucle.
+
+
+Big O notation es una increíble herramienta que nos ayuda a determinar la complejidad de un algoritmo dado que podemos medir su performance en cuanto al uso de espacio en disco,
+así como otros recursos (memoria uso de CPU, tiempo de ejecución, etc.,). 
+Lo anterior nos ayuda a identificar el peor escenario donde el algoritmo llegue al punto más alto de exigencia.
+
