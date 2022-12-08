@@ -39,3 +39,11 @@ Paso 5: se realiza otra comparación que es entre 2 y 4, ya que vuelve a comenza
 Paso 6: se realiza otra comparación que es entre 4 y 2, 4 > 2? si, entonces se cambian.
 
 [2| 2 | 4 | 5| 7]
+
+Paso 7: se realiza otra comparación que es entre 4 y 5, 4 > 5? no, entonces no se cambian.
+
+[2| 2 | 4 | 5| 7]
+
+Paso 8: se realiza otra comparación que es entre 5 y 7, 5 > 7? no, entonces no se cambian.
+
+[2| 2 | 4 | 5| 7]
