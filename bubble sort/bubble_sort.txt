@@ -12,3 +12,30 @@ Este algoritmo es bastante lento y poco eficiente.
 Por qué? Pues porque tiene que hacer muchos recorridos, tiene muchas iteraciones y
 conforme los números que le vamos metiendo a nuestro algoritmo vayan aumentando el mismo simple y sencillamente va a aumentar en complejidad.
 
+Ejemplo:
+
+Arreglo:   [5 | 2 | 4| 2 | 7|]
+
+Paso 1: se compara 5 y 2, al 5 > 2 se cambian
+
+[2| 5 | 4 | 2| 7]
+
+Paso 2: se realiza otra comparación que es entre 5 y 4, 5 > 4 se cambian.
+
+[2| 4 | 5 | 2| 7]
+
+Paso 3: se realiza otra comparación que es entre 5 y 2, 5 > 2 se cambian.
+
+[2| 4 | 2 | 5| 7]
+
+Paso 4: se realiza otra comparación que es entre 5 y 7, 5 > 7? no, entonces no se cambian.
+
+[2| 4 | 2 | 5| 7]
+
+Paso 5: se realiza otra comparación que es entre 2 y 4, ya que vuelve a comenzar, 2 > 4? no, entonces no se cambian.
+
+[2| 4 | 2 | 5| 7]
+
+Paso 6: se realiza otra comparación que es entre 4 y 2, 4 > 2? si, entonces se cambian.
+
+[2| 2 | 4 | 5| 7]
