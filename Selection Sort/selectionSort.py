@@ -24,3 +24,5 @@ for i in range(len(A)):
 
 
 startTime = datetime.now()
+
+
