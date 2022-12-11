@@ -7,14 +7,20 @@ def bubbleSort(array):
 	n = len(array) # cuantos numeros hay en el arreglo
 
 	for i in range(n): # recorre todos los elementos del array
-		#print(array)
+		swap = False
+		print(array)
 
          # se comienza en 0 hasta n(numero de elementos en el array)
          # i (posicion en el cual se esta en el array) 
 
 		for j in range(0, n-i-1): 
 			if array[j] > array[j+1] :
+				swap = True
 				array[j], array[j+1] = array[j+1], array[j] # cambia si el valor de j es mayor que el valor de la posicion j+1
+		if not swap :
+            		break
+
+
 
 array=[190,1200, 1,2,4,55,1000,6,800]
 
