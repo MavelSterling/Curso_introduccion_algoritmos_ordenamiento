@@ -1,0 +1,90 @@
+El ordenamiento Selection Sort funciona de la siguiente forma:
+    -   Busca el elemento más pequeño de la lista
+    -   Lo intercambia con el primero
+    -   Busca el siguiente más pequeño en el resto de la lista
+    -   Lo intercambia con el segundo.
+Este algoritmo se llama Ordenamiento por Selección porque toma el elemento más bajo y lo intercambia a su lugar.
+
+
+-------------------------------------------------------------------------------------------------
+
+Es un algoritmo funciona con 2 liniamientos
+1.Encuentra (en el caso de ordenar de menor a mayor) el número más pequeño y esté mandando al inicio de un arreglo.
+
+2.Vamos a tener 2 arrays en uno mismo (sub arrays).
+ El primero ordenado y el desordenado. Restando un índice para que sepamos que cada que agregamos 
+ un número al sub array nuestro array desordenado es -1.
+
+-------------------------------------------------------------------------------------------------
+
+El método de ordenamiento por selección consiste en encontrar el menor de todos
+los elementos de arreglo e intercambiarlo con el que está en la primera posición. 
+Luego el segundo mas pequeño, y así sucesivamente hasta ordenar todo el arreglo.
+
+Algoritmo que ubica elementos de un arreglo, en una secuencia, dada
+Buscar el elemento mínimo entre una posición i y el final de la lista.
+Intercambiar el mínimo con el elemento de la posición i.
+
+
+Su implementación es con ciclos anidados
+
+ Ventajas : 
+
+
+Es fácil su implementación. No requiere memoria adicional. Realiza pocos intercambios.
+ Tiene un rendimiento constante, pues existe poca diferencia entre el peor y el mejor caso.
+
+
+ Desventajas: 
+Es lento y poco eficiente cuando se usa en listas grandes o medianas. 
+Realiza numerosas comparaciones.
+
+-------------------------------------------------------------------------------------------------
+
+Descripción del algoritmo
+    - Su funcionamiento es el siguiente:
+    - Buscar el mínimo elemento de la lista
+    - Intercambiarlo con el primero
+    - Buscar el siguiente mínimo en el resto de la lista
+    - Intercambiarlo con el segundo
+Y en general:
+    - Buscar el mínimo elemento entre una posición i y el final de la lista
+    - Intercambiar el mínimo con el elemento de la posición i
+
+Características de ordenación por selección
+    • Algoritmo que ubica elementos de un arreglo, en una secuencia, dada por una relación de orden.
+    • Buscar el mínimo elemento entre una posición i y el final de la lista.
+    • Intercambiar el mínimo con el elemento de la posición i.
+    • Su implementación es con ciclos anidados.
+
+ ------------------------------------------------------------------------------------------------
+
+ EJEMPLO:
+
+ [50, 23, 15 ,20,10 ] ( las posiciones del array comienzan desde el 0)
+      
+1.  Se busca el elemento de menor valor en el array, que es 10.
+
+    Se cambia por el elemento que esta en la posición [0] y el otro valor se pone en la posición del 10
+
+     [10, 23, 15 ,20,50 ] 
+
+    Ahora tenemos el array ordenado y otro arreglado [[0] [1,4]]
+    Dado que el 10 esta en la posición [0] se encuentra ordenado
+
+2. Para la siguiente iteración se busca el menor elemento en el array [1,4] que es 15
+     
+     Se cambia por el elemento que esta en la posición [1] y el otro valor se pone en la posición del 15
+
+     [10, 15, 23 , 20, 50 ] 
+     Ahora tenemos el array ordenado y otro arreglado [[0,1] [2,4]]
+    Dado que el 15 esta en la posición [1] se encuentra ordenado, ya que esta en el sub array [0,1]
+
+3. Para la siguiente iteración se busca el menor elemento en el array [2,4] que es 20
+
+    [10, 15, 20, 23, 50 ] 
+
+4. Ahora se busca en el sub array [3,4] el menor valor, en este caso es 23 y esta en la posición [3]
+por lo que el array esta ordenado y no cambia.
+
+    [10, 15, 20, 23, 50 ] 
