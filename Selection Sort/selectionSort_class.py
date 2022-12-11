@@ -26,3 +26,4 @@ print("Array Ordenado:")
 
 for i in range(len(array)):
     print("%d" %array[i]),
+
